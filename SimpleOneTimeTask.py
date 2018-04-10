@@ -44,7 +44,7 @@ def SendEmail(par):
 
     # Gmail Sign In
     gmail_sender = "noelresearchgroup.automation@gmail.com"
-    gmail_passwd = "K2automation"
+    gmail_passwd = "****"
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
